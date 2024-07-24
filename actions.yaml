@@ -1,0 +1,9 @@
+name: 'Update README with latest blog posts'
+description: 'Fetches the latest blog posts and updates the README file'
+inputs:
+  feed_list:
+    description: 'The RSS feed URL of the blog'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
